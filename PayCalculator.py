@@ -1,5 +1,12 @@
-#asks user to enter hours and rate
-#prints error if input for hours or rate is not numeric
+#calculates straight pay for up to 40 hours
+#calculates 1.5 rate over 40 hours
+def computepay(hours,rate):
+    if hours > 40:
+        pay = 40*rate+((hours-40)*(rate*1.5))
+    else: pay = hours*rate
+    return pay
+#asks user to enters hours and rate
+#converts inputs to float, prints error and quits if unable
 hours = input('Enter Hours:')
 try:
     hours=float(hours)
@@ -8,7 +15,6 @@ try:
 except:
     print('Error, please enter numeric input')
     quit()
-#calculates pay with 1.5*rate over 40 hours
-if hours > 40:
-    print('Pay:', 40*rate+((hours-40)*(rate*1.5)))
-else: print('Pay:', hours*rate)
+#calculates and prints pay based on given inputs
+pay = computepay(hours, rate)
+print('Pay: ', pay)
