@@ -1,6 +1,6 @@
 #asks user to enter hours and rate
 #prints error if input for hours or rate is not numeric
-hours = input('Enter Hours:'))
+hours = input('Enter Hours:')
 try:
     hours=float(hours)
     rate = input('Enter Rate:')
