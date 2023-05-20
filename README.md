@@ -160,6 +160,3 @@ Grade Calculator
     [x] Defining and calling void functions (no return)
     [x] Calling new functions in scripts
     [x] Calling new functions in other functions
-
-
-    
