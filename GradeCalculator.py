@@ -1,8 +1,8 @@
-#function: prints error message and quits
+#defines function to print error message and quits
 def badscore():
     print('Bad Score')
     quit()  
-#function: returns grade for a score between 0 and 1
+#defines function to returns grade for a score between 0 and 1
 #prints error for scores out of range
 def computegrade(score):
     if score > 1.0 or score <0.0:
@@ -15,9 +15,9 @@ def computegrade(score):
     return grade
 #prints grade based on score
 #prints error and quits for nonnumeric inputs
-score = input('Enter Score: ')
+input_score = input('Enter Score: ')
 try:
-    score = float(score)
+    float_score = float(input_score)
 except:
     badscore()
-print(computegrade(score))
+print(computegrade(float_score))
