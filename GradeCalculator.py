@@ -5,7 +5,7 @@ def badscore():
 #function: returns grade for a score between 0 and 1
 #prints error for scores out of range
 def computegrade(score):
-    if score >= 1.0 or score <=0.0:
+    if score > 1.0 or score <0.0:
         badscore()
     elif score >= 0.9: grade = 'A'
     elif score >= 0.8: grade = 'B'
