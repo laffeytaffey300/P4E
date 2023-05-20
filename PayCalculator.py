@@ -7,14 +7,14 @@ def computepay(hours,rate):
     return pay
 #asks user to enters hours and rate
 #converts inputs to float, prints error and quits if unable
-hours = input('Enter Hours:')
+input_hours = input('Enter Hours:')
 try:
-    hours=float(hours)
-    rate = input('Enter Rate:')
-    rate = float(rate)
+    float_hours=float(input_hours)
+    input_rate = input('Enter Rate:')
+    float_rate = float(input_rate)
 except:
     print('Error, please enter numeric input')
     quit()
 #calculates and prints pay based on given inputs
-pay = computepay(hours, rate)
-print('Pay: ', pay)
+computed_pay = computepay(float_hours, float_rate)
+print('Pay: ', computed_pay)
