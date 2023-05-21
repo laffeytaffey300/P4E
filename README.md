@@ -2,20 +2,24 @@ These files are based on my submissions to exercises included in PY4E lessons, a
 Overall skills demonstrated
   Non-Categorized Skills
     [x] Comments, using #
-    [] linebreaks using \n
+    [x] linebreaks using \n
     [] using pass
-  Values and Types
+  Value Types
     [x] Working with string values
-    [] Working with integer values
+    [x] Working with integer values
     [x] Working with float values
     [] Identifying value class, using type()
+  Boolean Values
+    [x] using True
+    [] using False
+    [x] using None
  Conversion Functions
     [] Converting to string value type, using str()
     [] Coverting to integer value type, using int()
     [x] Converting to float value type, using float()
   Variables and Expressions
-    [x] Naming variables
-    [x] Assigning variables, using =
+    [x] Initializing variables
+    [x] Updating variables
   Operations - Integer and Float Values
     [x] Performing addition, using +
     [x] Performing subtraction, using -
@@ -29,7 +33,7 @@ Overall skills demonstrated
     [] Joining strings, using +
     [] Multiplying strings, using *
   Comparison Operators
-    [] Using ==
+    [x] Using ==
     [] Using !=
     [x] Using >
     [x] Using <
@@ -42,10 +46,10 @@ Overall skills demonstrated
     [x] Using or
     [] Using not
   Conditional statements
-    [] Simple conditional execution, using if
+    [x] Simple conditional execution, using if
     [x] Alternative execution, using if/else
     [x] Chained conditionals, using if/elif/else
-    [] Nested conditionals
+    [x] Nested conditionals
   Error and Exception handling
     [x] Simple exception handling, using try/except
     [] Error handling or logical expressions, using guard evaluations
@@ -72,7 +76,12 @@ Overall skills demonstrated
     [x] Defining and calling void functions (no return)
     [x] Calling new functions in scripts
     [x] Calling new functions in other functions
-  Using modules
+  Loops and Iteration
+    [x] Indefinite loops, using while
+    [] Definite loops, using for/in
+    [x] Finishing an iteration, using break
+    [x] Finishing an iteration, using continue
+  Using Modules
     [] Importing modules, using import
     [] Using functions from a module, using dot notation
     [] Using variables from a module, using dot notation
@@ -86,14 +95,14 @@ Overall skills demonstrated
 Pay Calculator
   Non-Categorized Skills
     [x] Comments, using #
-  Values and Types
+  Value Types
     [x] Working with string values
     [x] Working with float values
  Conversion Functions
     [x] Converting to float value type, using float()
   Variables and Expressions
-    [x] Naming variables
-    [x] Assigning variables, using =
+    [x] Initializing variables
+    [x] Updating variables
   Operations - Integer and Float Values
     [x] Performing addition, using +
     [x] Performing subtraction, using -
@@ -124,21 +133,20 @@ Pay Calculator
 Grade Calculator
   Non-Categorized Skills
     [x] Comments, using #
-  Values and Types
+  Value Types
     [x] Working with string values
     [x] Working with float values
  Conversion Functions
     [x] Converting to float value type, using float()
   Variables and Expressions
-    [x] Naming variables
-    [x] Assigning variables, using =
+    [x] Initializing variables
+    [x] Updating variables
   Operations - Integer and Float Values
   Operations - String Values
   Comparison operators
     [x] Using >
     [x] Using <
     [x] Using >=
- 
   Logical operators
     [x] Using or
   Conditional statements
@@ -160,3 +168,47 @@ Grade Calculator
     [x] Defining and calling void functions (no return)
     [x] Calling new functions in scripts
     [x] Calling new functions in other functions
+
+Descriptive Stats
+  Non-Categorized Skills
+    [x] Comments, using #
+    [x] linebreaks using \n
+  Value Types
+    [x] Working with string values
+    [x] Working with integer values
+    [x] Working with float values
+  Boolean Values
+    [x] Using True
+    [x] Using None
+ Conversion Functions
+    [x] Converting to float value type, using float()
+  Variables and Expressions
+    [x] Initializing variables
+    [x] Updating variables
+  Operations - Integer and Float Values
+    [x] Performing addition, using +
+    [x] Performing division, using /
+  Operations - String Values
+  Comparison Operators
+    [x] Using ==
+    [x] Using >
+    [x] Using <
+  Logical operators
+  Conditional statements
+    [x] Simple conditional execution, using if
+    [x] Alternative execution, using if/else
+    [x] Nested conditionals
+  Error and Exception handling
+    [x] Simple exception handling, using try/except
+  Built-In Functions
+    [x] using input()
+  Printing
+    [x] Using print()
+    [x] Printing a string constant, using ''
+    [x] Printing a variable
+    [x] Printing multiple arguments, using ,
+  New Functions
+  Loops and Iteration
+    [x] Indefinite loops, using while
+    [x] Finishing an iteration, using break
+    [x] Finishing an iteration, using continue
