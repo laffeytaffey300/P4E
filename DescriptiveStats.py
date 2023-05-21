@@ -15,7 +15,7 @@ while True:
         print('Invalid data') #exception handling when input is not a number
         continue #skips updating stats for bad input
     sum = sum + float_num
-    if count == 0: #sets max and min to first input value on first iteration
+    if count == 0: #sets max and min to first input value on first iteration with valid input
             max = float_num
             min = float_num
     else:
