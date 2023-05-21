@@ -7,12 +7,12 @@ min = None
 #loop
 while True:
     input_val= input('Enter a number: ')
-    if input_val == 'done': 
-        break #allows user to exit loop by entering 'done'
-    try:
-        float_num = float(input_val) #checks if input value is number
+    if input_val == 'done': #allows user to exit loop by entering 'done'
+        break
+    try: #checks if input value is number
+        float_num = float(input_val)
     except:
-        print('bad data') #exception handling when input is not a number
+        print('Invalid data') #exception handling when input is not a number
         continue #skips updating stats for bad input
     sum = sum + float_num
     if count == 0: #sets max and min to first input value on first iteration
