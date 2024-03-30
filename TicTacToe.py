@@ -74,7 +74,7 @@ def game():
     player_symbol, computer_symbol = opening(board_values)
     while game_over != 1:
       board_values, turn_counter, game_over = player_turn(player_symbol,turn_counter, available_spaces, board_values)
-      if len(available_spaces) > 0:
+      if game_over !=1 and len(available_spaces) > 0:
         board_values, turn_counter, game_over = computer_turn(computer_symbol,turn_counter, available_spaces, board_values)
     print("Let's play again!")
 
