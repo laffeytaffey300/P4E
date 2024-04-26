@@ -58,13 +58,6 @@ def print_stacks():
         print(stack_display_name + " Stack: " + str(items_in_stack))
 
 
-#get_input for stack moving from
-        #exception handling if stack blank
-    #get_input for stack moving to
-        #exception handling if stack full
-    #pop from and push
-    #add to turn counter
-
 def user_input():
     # get stack from input, check not empty, check option
     while True:
@@ -77,12 +70,6 @@ def user_input():
             for i in range(len(stacks)):
                 if user_input == choices[i]:
                     return stacks[i]
-
-#get stack to input, check not full, check option
-#while True:
-#stack_to = input("\nWhat stack would you like to move to?\n")
-    # pop and push
-
 
 #Game play
 num_turns = 0
@@ -103,12 +90,7 @@ while right_stack.has_space():
     while True:
         print("\nWhich stack should you like to move a disk to?")
         stack_to = user_input()
-        if (not stack_to.has_space()) and (num_turns !=0):
-            print("\n>>>This stack has no space.<<<\n")
-            print_stacks()
-            print()
-            input_hint()
-        elif (stack_to.peek() != None) and (stack_from.peek() > stack_to.peek()):
+        if (stack_to.peek() != None) and (stack_from.peek() > stack_to.peek()):
             print("\n>>>You can't place a larger disk onto a smaller disk.<<<\n")
         else: break
     if stack_from == stack_to:
